@@ -1,4 +1,5 @@
 import React from 'react'
+import bikeImage from '../assets/bikeimage.JPG'
 
 const About = () => {
   return (
@@ -12,10 +13,11 @@ const About = () => {
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi. I'm Evan, nice to meet you. Please take a look around.</p>
+                    <img src={bikeImage} alt="" />
                 </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, magnam? Totam sequi vero pariatur doloremque aperiam quis modi neque! Excepturi quisquam architecto, aliquam corrupti quae consequuntur repudiandae rerum placeat possimus.</p>
+                <div className="flex items-center">
+                    <p>
+I'm a software engineering student at the University of Waterloo, passionate about technology and programming. Alongside my studies, I enjoy working out, skiing, and spending time with friends. Balancing my academic pursuits with an active lifestyle and social connections fuels my personal growth and prepares me for a successful future in software engineering.</p>
                 </div>
             </div> 
         </div>
