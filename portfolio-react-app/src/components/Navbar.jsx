@@ -63,12 +63,12 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=evan@dennisons.ca">
                         Email <HiOutlineMail size={30} />
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' target="_blank" href="https://drive.google.com/file/d/14KyQDXDdvEJ5Enie3_BtsLqAi6nDgWYD/view?usp=sharing">
                         Resume <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>
