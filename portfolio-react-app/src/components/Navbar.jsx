@@ -62,7 +62,7 @@ const Navbar = () => {
                         Github <FaGithub size={30} />
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#474c29]'>
                     <a className='flex justify-between items-center w-full text-gray-300' target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=evan@dennisons.ca">
                         Email <HiOutlineMail size={30} />
                     </a>
